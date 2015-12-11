@@ -31,7 +31,6 @@ sub visited_once {
     my $count = 0;
     foreach my $i (keys %$visited_houses) {
         foreach my $j (keys %{$visited_houses->{$i}}) {
-            print $j . "\n"  ;
             $count += 1;
         }
     }
